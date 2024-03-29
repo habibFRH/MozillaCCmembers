@@ -6,6 +6,7 @@ import Chaima from "../src/assets/Chaima.jpg";
 import Sanad from "../src/assets/saned.jpg";
 import Basmala from "../src/assets/basmala.jpg";
 import Sidou from "../src/assets/sidou.jpg";
+import Roua from "../src/assets/roua.jpg";
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
       <u><h1 className="text-2xl mt-9 font-bold">President / Vice President</h1></u>
       <div className="flex justify-center items-center ">
         <div className="flex flex-col md:flex-row">
-          <Card name="Roua Madoui" img={Latifa} role="President" />
+          <Card name="Roua Madoui" img={Roua} role="President" />
           <Card name="Latifa boudiaf" img={Latifa} role="Vice President" />
         </div>
       </div>
