@@ -23,33 +23,19 @@ function App() {
       <u><h1 className="text-2xl mt-9 font-bold">Managers / Leaders</h1></u>
       <div className="flex justify-center items-center">
         <div className="flex flex-wrap justify-center">
-        <Card name="Moundher Mesphar" img={Asmaa} role="External Relations Manager /Artificial Intelligence-ML Leader" />
-        <Card name="Ferhi Mohamed habib Ellah" img={Sidou} role="Web Dev Leader" />
-          <Card name="Asmaa" img={Asmaa} role="Education Team Manager" />
-          <Card name="Chaima" img={Chaima} role="Marketing Team Manager" />
+        {/* <Card name="Moundher Mesphar" img={Asmaa} role="External Relationships Manager" /> */}
+        
+          <Card name="Asmaa Rebiha" img={Asmaa} role="Education Team Manager" />
+          <Card name="Chaima Zaamouche" img={Chaima} role="Marketing Team Manager" />
+          
           <Card name="Soumaia Machiche(Sanad)" img={Sanad}role="Project Team Manager"/>
+          <Card name="Ferhi Mohamed habib Ellah (Sidou)" img={Sidou} role="Web Dev Leader" />
         </div>
       </div>
       {/* members */}
       <u><h1 className="text-2xl mt-9 font-bold">Members</h1></u>
-      <div className="flex justify-center items-center">
+      <div className="flex justify-center items-center mb-10">
         <div className="flex flex-wrap justify-center">
-          <Card name="Alice Smith" img={Asmaa} role="Data Scientist" />
-          <Card name="Chaima Zamouche" img={Chaima} role="UI/UX Designer" />
-          <Card name="Emily Brown" img={Sanad} role="Marketing Manager" />
-          <Card name="Basmala Bouchouit" img={Basmala} role="Member" />
-          <Card name="Alice Smith" img={Asmaa} role="Data Scientist" />
-          <Card name="Chaima Zamouche" img={Chaima} role="UI/UX Designer" />
-          <Card name="Emily Brown" img={Sanad} role="Marketing Manager" />
-          <Card name="Basmala Bouchouit" img={Basmala} role="Member" />
-          <Card name="Alice Smith" img={Asmaa} role="Data Scientist" />
-          <Card name="Chaima Zamouche" img={Chaima} role="UI/UX Designer" />
-          <Card name="Emily Brown" img={Sanad} role="Marketing Manager" />
-          <Card name="Basmala Bouchouit" img={Basmala} role="Member" />
-          <Card name="Alice Smith" img={Asmaa} role="Data Scientist" />
-          <Card name="Chaima Zamouche" img={Chaima} role="UI/UX Designer" />
-          <Card name="Emily Brown" img={Sanad} role="Marketing Manager" />
-          <Card name="Basmala Bouchouit" img={Basmala} role="Member" />
           <Card name="Basmala Bouchouit" img={Basmala} role="Member" />
         </div>
       </div>
